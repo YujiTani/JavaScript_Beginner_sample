@@ -1,0 +1,75 @@
+div {
+    margin-top: 50px;
+}
+ui {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+li {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    list-style: none;
+    border: 1px solid #6b8288;
+    border-radius: 5px;
+    background: #38d6fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    overflow: hidden;
+    color: #f6f5f4;
+    box-shadow: 2px 2px #484545;
+    transition: .2s;
+    user-select: none;
+    cursor: pointer;
+
+
+}
+li:active {
+    transition: .2s;
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+li.done {
+    text-decoration: line-through;
+}
+
+.todo_button {
+    width: 30%;
+    font-weight: bold;
+    border: none;
+    height: 100%;
+    background: #faaa8d;
+    color: #f6f5f4;
+}
+
+.add {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 45px;
+    user-select: none;
+}
+.add_input {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.add_button {
+
+    height: 113%;
+    width: 30%;
+
+}
