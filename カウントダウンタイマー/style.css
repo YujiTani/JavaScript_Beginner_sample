@@ -1,0 +1,45 @@
+.countDown-container {
+    letter-spacing: .2em;
+    background: #9cf6f6;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    border: solid 3px #333745;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template: 
+    "..... ..... ....." 20%
+    "title title title" 20%
+    "start start start" 20%
+    "time time time" 20%
+    "..... ..... ....." 20%
+    /1fr 1fr 1fr;
+
+}
+h1 {
+    grid-area: title;
+    text-align: center;
+}
+
+#js-start-message{
+    display: block;
+    grid-area: start;
+    font-size: 40px;
+    color: #ff3333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.time-container {
+    grid-area: time;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.time-container span {
+    color: #ff3333;
+}
